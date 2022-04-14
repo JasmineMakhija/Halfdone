@@ -1,0 +1,22 @@
+div #m1,#m2{
+    color: #3b503b ;
+    animation-name: m;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes m{
+    from{color: #3b503b ;}
+    to{color: #d80e00a8;}
+    }  
+.popup{
+    background-color: rgb(167, 165, 7);
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border:3px solid #f1f1f1;
+    z-index: 9;
+} 
+.jus{
+    text-align: center;
+}
